@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://slide.suzuke.dev/'
 languageCode = 'ja-jp'
 defaultContentLanguage = "ja"
 title = 'Suzukeのスライド'
@@ -20,3 +20,6 @@ codeFences = false
 
 [params.reveal_hugo]
 highlight_theme = "github dark dimmed"
+custom_theme = "stylesheets/mysolar.css"
+slide_number = true
+transition = "slide"
