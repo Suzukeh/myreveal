@@ -1,0 +1,22 @@
+baseURL = 'http://example.org/'
+languageCode = 'ja-jp'
+defaultContentLanguage = "ja"
+title = 'Suzukeのスライド'
+theme = "reveal-hugo"
+enableGitInfo = true
+publishDir = "docs"
+hasCJKLanguage = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
+
+[markup.highlight]
+codeFences = false
+
+[params.reveal_hugo]
+highlight_theme = "github dark dimmed"
