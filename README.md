@@ -4,6 +4,8 @@
 
 ## メモ
 
+[reveal-md](https://github.com/webpro/reveal-md)を使う
+
 1. スライドを `foo.md` に作る
 1. `reveal-md slides.md -w` でライブリロードのプレビュー
 1. `reveal-md slides.md --static bar` でbarディレクトリ下に`foo.html` とその他を生成
