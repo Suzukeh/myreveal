@@ -9,7 +9,7 @@
  * Solarized Light theme for reveal.js.
  * Author: Achim Staebler
  */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
 /**
  * Solarized colors by Ethan Schoonover
  */
@@ -23,9 +23,9 @@ html * {
  *********************************************/
 :root {
   --r-background-color: #fdf6e3;
-  --r-main-font: 'Noto Sans JP', sans-serif;
+  --r-main-font: Noto Sans JP, sans-serif;
 
-  --r-main-font-size: 40px;
+  --r-main-font-size: 30px;
   --r-main-color: #657b83;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
@@ -41,7 +41,7 @@ html * {
   --r-heading2-size: 2.11em;
   --r-heading3-size: 1.55em;
   --r-heading4-size: 1em;
-  --r-code-font: 'Source Code Pro', monospace;
+  --r-code-font: monospace;
   --r-link-color: #268bd2;
   --r-link-color-dark: #1a6091;
   --r-link-color-hover: #78b9e6;

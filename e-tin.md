@@ -1,6 +1,4 @@
 ---
-customTheme: "solarslide"
-theme: "solarized"
 transition: "slide"
 title: "電子ティンホイッスル"
 ---
@@ -32,9 +30,16 @@ Arduinoに頼りまくって作る電子民族管楽器
 
 今回が工研の活動として初めての制作(たぶん)
 
+
+
 ---
 
 # 制作物
+
+```js
+var a=0;
+var l="あああ0！"
+```
 
 ---
 
