@@ -1,7 +1,6 @@
 {
     "controls": true,
     "progress": true,
-    "controlsTutorial": true,
     "slideNumber": true,
     "keyboard": true,
     "overview": true,

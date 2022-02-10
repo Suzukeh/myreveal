@@ -1,6 +1,4 @@
 ---
-customTheme: "solarslide"
-theme: "solarized"
 transition: "slide"
 title: "The Effects of Body Temperature on Typing"
 ---
