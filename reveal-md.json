@@ -1,4 +1,12 @@
 {
     "separator": "^---",
-    "verticalSeparator": "^--"
+    "verticalSeparator": "^--",
+    "scripts": [
+        "plugin/chalkboard/plugin.js",
+        "plugin/toolbar/toolbar.js",
+        "plugin/customcontrols/plugin.js",
+        "plugin/helpbutton/helpbutton.js",
+        "plugin/menu/menu.js",
+        "plugin.js"
+    ]
 }

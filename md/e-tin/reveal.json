@@ -8,6 +8,5 @@
     "help": true,
     "pause": true,
     "mouseWheel": false,
-    "pdfSeparateFragments": false,
-    "helpButtonDisplay": "always"
+    "pdfSeparateFragments": false
 }

@@ -1,0 +1,172 @@
+---
+theme: theme/solarslide.css
+transition: "slide"
+title: "PPA発表 鈴木輝"
+---
+
+# アンテナの指向性による角度推定
+
+<br>
+5 PPA 鈴木輝
+
+---
+
+## 背景・目的
+
+<br>
+
+<div style="float:left;">
+<div style="position:absolute;left:20%;">
+ペンライトの同期 (サークル ライブ演出)
+<br>
+<br>
+動きに連動した同期<br>
+↑<br>
+姿勢を取得<br>
+↑<br>
+ポールアンテナの指向性
+</div></div>
+<!--    <div style="float:right;>   -->
+<img src="./img/penlight.png" style="width: 5%;position: relative;left:40%;border: none; box-shadow:none;transform:rotate(10deg)"/>
+
+--
+
+<img src="./img/penlight2.png" style="width: 90%; border: none; box-shadow:none;transform:rotate(0deg)"/>
+
+---
+
+## 実験方法
+
+<div style="float:left;">
+<div style="position:absolute;left:10%;">
+
+**主要な機器**
+
+<hr>
+
+受信側
+* WiFiモジュール (ESP-WROOM-02U)
+* 外付けモノポールアンテナ (TFPD05H08750011)
+
+他、右図の回路に必要なもの
+<hr>
+
+発信側
+
+* WiFiルータ (WHR-HP-G300N)
+
+
+<br><hr>
+
+</div></div>
+<div style="float:right;">
+<img src="img/02-10-05-02-15.png" style="width: 20%;position: relative;left:50%; border: none; box-shadow:none;transform:rotate(0deg)"/>
+</div>
+</div>
+
+--
+
+## 実験方法
+
+1. 送受信間の距離 0.50, 1.75, 3.00, 5.50mの各点で
+1. 20°ごとに0°から±90°まで (±90°含む)
+1. 受信強度を10回分取得 (2アクセスポイント×5回)
+
+**↓** <br>
+
+モノポールアンテナの指向性から<br>十分な精度で角度を知ることができるか？
+
+構内のように種々の雑音がある環境で、<br>家庭用程度の発信源でも十分か？
+
+---
+
+## 実験結果
+
+各距離ごとに最大値と最小値を1, 0として得た相対強度の平均<br>
+(指向性図)<br>
+<img src="img/02-10-08-41-07.png" style="width: 100%; border: none; box-shadow:none;transform:rotate(0deg)"/>
+
+--
+
+強度の変化 (±90°以外は両隣との平均の変化)<br>
+<img src="img/02-10-09-02-07.png" style="width: 100%; border: none; box-shadow:none;transform:rotate(0deg)"/>
+
+---
+
+### 考察
+
+<div style="float:left;">
+<div style="position:absolute;left:0%;top:40%">
+得られた指向性図はデータシートと<br>同様の特徴を示している
+
+→受信強度の測定自体は的確にできている
+
+</div></div>
+
+<div style="float:right;">
+<img src="img/02-10-09-22-03.png" style="width: 40%;position: relative;left:35%; border: none; box-shadow:none;transform:rotate(0deg)"/>
+</div>
+</div>
+
+--
+
+**一方で**
+
+20°の違いで得られた強度差：平均4.6dB
+
+同一距離・角度での最大最小の差： 平均4.0dB
+
+
+→少ない回数の測定から推定した角度において<br>少なくとも20°程度のずれは起こりうる
+
+
+<br>
+
+<hr>
+
+実際に3段階 (0°, 30°, 90°)の判定プログラムを書いて試したが、<br>
+記録のとりようがないほど不安定だった。
+
+また、計測は1秒に1回程度でしか動かなかった。
+---
+
+## まとめ
+
+2.4GHz帯モノポールアンテナの指向性は教室に<br>家庭用ルータという環境でも十分現れる。
+
+すなわち、角度による受信強度の変化は観測できる。
+
+しかし、1回の測定から導いた角度には20°以上の誤差がありうる。
+
+今回制作した受信機は1秒に1回しか測定ができなかったこともあり、<br>
+動機で挙げたペンライトのような動くものには不向きである。
+
+--
+
+### 改善案
+
++ **アンテナと外装の形状を変える**
+
+他のアンテナ形状でより良い強度差が出る可能性がある。
+
+パラボラアンテナ様の外装を付けたりしても指向性は変えられる。
+
+これらは送受信どちらにも言える。
+
+<hr>
+
++ **WiFiモジュールを変更、または使用しない**
+
+マイコンやライブラリを変えて高速化することも期待できる。
+
+また、混線さえ解決できればマイコンを使わないアナログな回路による手法も考えられる。
+
+---
+
+### 参考資料
+
++ 高橋光紀,平石広典,"電波強度による位置推定機能を利用した校内ナビゲーションシステムの設計",https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=110260&file_id=1&file_no=1
+
++ "ESP8266 Arduino Core",https://arduino-esp8266.readthedocs.io/en/latest/index.html
+
++ Cisco, "アンテナパターンとその意味", https://www.cisco.com/c/ja_jp/products/collateral/wireless/aironet-antennas-accessories/prod_white_paper0900aecd806a1a3e.html
