@@ -1,5 +1,6 @@
 options.plugins.push(
     RevealChalkboard,
-    HelpButton,
-    toolbar
+    //HelpButton,
+    RevealMenu
+    //toolbar
 );

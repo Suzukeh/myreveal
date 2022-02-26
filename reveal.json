@@ -9,5 +9,9 @@
     "pause": true,
     "mouseWheel": false,
     "pdfSeparateFragments": false,
-    "helpButtonDisplay": "always"
+    "helpButtonDisplay": "always",
+    "menu": {
+        "side": "right",
+        "hideMissingTitles": true
+    }
 }
