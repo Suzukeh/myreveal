@@ -9,9 +9,16 @@
     "pause": true,
     "mouseWheel": false,
     "pdfSeparateFragments": false,
-    "helpButtonDisplay": "always",
+    "helpButtonDisplay": "first",
     "menu": {
-        "side": "right",
-        "hideMissingTitles": true
+        "side": "left",
+        "hideMissingTitles": true,
+        "custom": [
+            {
+                "title": "About",
+                "icon": "<i class="fa fa-info">",
+                "content": "<p> <a href='https://suzukeh.github.io/myreveal/'> slides list</a></p>"
+            }
+        ]
     }
 }
