@@ -16,7 +16,7 @@
         "custom": [
             {
                 "title": "About",
-                "icon": "<i class="fa fa-info">",
+                "icon": "<i class=\"fa fa-info\">",
                 "content": "<p> <a href='https://suzukeh.github.io/myreveal/'> slides list</a></p>"
             }
         ]
