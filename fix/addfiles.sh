@@ -1,9 +1,14 @@
-SCRIPT_DIR=$(cd $(dirname $0); pwd)
+#!/bin/bash
+
+SCRIPT_DIR=$1
+
+#SCRIPT_DIR=$(cd $(dirname $0); pwd)
 echo $SCRIPT_DIR
-cp $SCRIPT_DIR/.nojekyll $SCRIPT_DIR/../docs/
+cp $SCRIPT_DIR/fix/.nojekyll $SCRIPT_DIR/docs/
+cp $SCRIPT_DIR/fix/CNAME $SCRIPT_DIR/docs/CNAME
 
-rm -rf $SCRIPT_DIR/../docs/_assets/plugin
-rm -rf $SCRIPT_DIR/../docs/favicon.ico
+rm -rf $SCRIPT_DIR/docs/_assets/plugin
+rm -rf $SCRIPT_DIR/docs/favicon.ico
 
-cp $SCRIPT_DIR/favicon.ico $SCRIPT_DIR/../docs/favicon.ico
-cp -r $SCRIPT_DIR/../plugin $SCRIPT_DIR/../docs/_assets/plugin
+cp $SCRIPT_DIR/fix/favicon.ico $SCRIPT_DIR/docs/favicon.ico
+cp -r $SCRIPT_DIR/plugin $SCRIPT_DIR/docs/_assets/plugin
