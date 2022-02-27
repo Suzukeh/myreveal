@@ -8,11 +8,15 @@ title: "reveal.js 縦横無尽のプレゼンテーション"
 
 ## 縦横無尽のプレゼンテーション
 
+工研LT
+
 ---
 
 ## 誰
 
-[参考：工研コンテスト](https://youtu.be/Ct2v37bGC9Q?t=7680)
+Suzuke
+
+[@suzukeh1](https://twitter.com/suzukeh1)
 
 ---
 
