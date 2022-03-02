@@ -7,9 +7,7 @@ title: "The Effects of Body Temperature on Typing"
 
 ## The Effects of Body Temperature on Typing
 
-2010383 Hikaru Suzuki
-
-Members: Kohki Shimomura, Shun Shito
+Hikaru Suzuki
 
 ---
 

@@ -4,7 +4,6 @@ SCRIPT_DIR=$1
 echo $SCRIPT_DIR
 
 cp $SCRIPT_DIR/docs/CNAME $SCRIPT_DIR/fix/CNAME
-rm -rf $SCRIPT_DIR/docs/
 reveal-md $SCRIPT_DIR/md/ --static docs
 
 $SCRIPT_DIR/fix/addfiles.sh $1
