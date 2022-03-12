@@ -250,6 +250,16 @@ mainを選択して、Saveを押すと完了
 sudo apt-get install git
 ```
 
+--
+
+### GitとGitHubの接続
+
+SSH接続をすると、アカウントを紐付けられる
+
+みんなsolでやったはずだしできるよね
+
+https://qiita.com/shizuma/items/2b2f873a0034839e47ce
+
 ---
 
 ### Gitコマンドの使い方 (今回の内容に使う分)
@@ -266,7 +276,9 @@ git clone https://github.com/Suzukeh/GitHubPages_kosyu.git
 
 --
 
-**変更を登録 その1** `add`コマンド
+**変更を登録 その1**
+
+`add`コマンド
 
 ```bash:
 #git add <変更を登録したいもの>
@@ -276,7 +288,9 @@ git add .
 
 --
 
-**変更を登録 その2** `commit`コマンド
+**変更を登録 その2**
+
+`commit`コマンド
 
 ```bash:
 #git commit -m <変更に関するコメント 日本語も可>
@@ -286,7 +300,9 @@ git commit -m "add index.html"
 
 --
 
-**変更をGitHubにアップロード** `push`コマンド
+**変更をGitHubにアップロード**
+
+`push`コマンド
 
 ```bash:
 git push
@@ -294,7 +310,9 @@ git push
 
 --
 
-**GitHubと同期** `pull`コマンド
+**GitHubと同期**
+
+`pull`コマンド
 
 ```bash:
 git pull
