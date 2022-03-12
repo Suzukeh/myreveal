@@ -22,14 +22,17 @@ def fix_css_path(arg):
         content = htmlpath.read_text()
         for csspath in redict.keys():
             if content.find(csspath) != -1:
-                print(str(htmlpath) + ": " + str(csspath) +
-                      " -> " + str(redict[csspath]))
-                content = content.replace(str(csspath), str(redict[csspath]))
+                relcss = Path(os.path.relpath(
+                    (arg/redict[csspath]), htmlpath.parent))
+                reptext = "href=\"./" + str(relcss)
+                print(str(htmlpath) + ": " +
+                      str(csspath) + " -> " + str(reptext))
+                content = content.replace(str(csspath), str(reptext))
                 htmlpath.write_text(content)
 
 
-redict = {"href=\"/_assets/theme/": "href=\"./../_assets/theme/",
-          "href=\"./dist/theme/": "href=\"./../dist/theme/"}
+redict = {"href=\"/_assets/theme": Path("./_assets/theme/"),
+          "href=\"./dist/theme": Path("./dist/theme/")}
 
 
 args = sys.argv
