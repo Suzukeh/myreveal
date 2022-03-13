@@ -7,7 +7,7 @@ realpath $SCRIPT_DIR
 
 cp $SCRIPT_DIR/fix/.nojekyll $SCRIPT_DIR/docs/
 cp $SCRIPT_DIR/fix/CNAME $SCRIPT_DIR/docs/CNAME
-cp -r $SCRIPT_DIR/theme $SCRIPT_DIR/docs/_assets/theme
+cp -r $SCRIPT_DIR/theme $SCRIPT_DIR/docs/_assets/
 
 rm -rf $SCRIPT_DIR/docs/_assets/plugin
 cp -r $SCRIPT_DIR/plugin $SCRIPT_DIR/docs/_assets/plugin
