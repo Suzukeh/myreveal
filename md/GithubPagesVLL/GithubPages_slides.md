@@ -100,7 +100,7 @@ https://github.com/Netflix/netflix.github.com
 ## おさらい
 
 * GitHubとは**クラウドストレージ** (Googleドライブ的なやつ) である
-* アップロードしたHTMLファイルを**Webページとして公開**することができる
+* アップロードしたHTMLファイルを**Webページとして公開**する機能がGitHub Pages
 * 今からそれをやる
 
 ---

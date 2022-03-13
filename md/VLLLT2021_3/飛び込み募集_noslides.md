@@ -20,3 +20,17 @@ title: "飛び込み募集中！"
 <small>
 飛び込みLTをやりたい人はチャットに書くなり司会 (イチ・Suzuke) に言うなりしてください。
 </small>
+
+---
+
+> aaaaaあ
+
+これは `test.py` です。**たぶん**
+
+```python
+if a ==  1:
+    print("a is 1")
+else:
+    print("a is not 1")
+
+```
