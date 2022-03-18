@@ -43,7 +43,7 @@ Arduinoに頼りまくって作る電子民族管楽器
 
 <img src="https://cdn.discordapp.com/attachments/843919142930874408/891508649611108362/image0.jpg" style="width: 60%; border: none; box-shadow:none;transform:rotate(0deg)"/>
 
-<small>ラップの芯？ なにくっついてんの？ 配線クソか？ てかブレッドボード？</small> {.fragment .fade-up}
+<small>ラップの芯？ なにくっついてんの？ 配線クソか？ てかブレッドボード？</small>
 
 --
 
@@ -73,7 +73,7 @@ Arduinoに頼りまくって作る電子民族管楽器
 
 民族楽器なので、電子化の波はあるものの未達<br>(バグパイプは既にある)
 
-→じゃあこれは新規性アリだよね！！！ {.fragment .fade-up}
+→じゃあこれは新規性アリだよね！！！
 
 --
 
@@ -125,7 +125,7 @@ Arduinoに頼りまくって作る電子民族管楽器
 
 息の強さでオクターブ切り替えをするのがメインのものがなさそう (やろうと思えばできそうだが)
 
-でも実装は本当に単純にifで区切っただけ {.fragment .fade-up}
+でも実装は本当に単純にifで区切っただけ
 
 --
 
@@ -133,7 +133,7 @@ Arduinoに頼りまくって作る電子民族管楽器
 <img src="https://akizukidenshi.com/img/goods/C/M-12854.jpg" style="width: 50%; border: none; box-shadow:none;transform:rotate(0deg)"/>
 <img src="https://www.packplus.jp/html/user_data/assets/img/product/1018128-1.jpg" style="width: 40%; border: none; box-shadow:none;transform:rotate(0deg)"/>
 
-でも結構感度はいい {.fragment .fade-up}
+でも結構感度はいい
 
 ---
 
@@ -145,6 +145,6 @@ Arduinoに頼りまくって作る電子民族管楽器
 * タッチセンサは誤検知(というか個体差?)があるので、きちんとしたのを使った方がいい
 * 大気圧センサ、優秀すぎ
 
-でもまあ、意外と結構うまくいったと思います {.fragment .fade-up}
+でもまあ、意外と結構うまくいったと思います
 
-https://github.com/Suzukeh/e-tin {.fragment .fade-up}
+https://github.com/Suzukeh/e-tin
