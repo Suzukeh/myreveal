@@ -11,4 +11,4 @@
 1. `reveal-md md/ --static bar` でbarディレクトリ下に`foo.html` とその他を生成
 1. barディレクトリを公開
 
-ここらへんをまとめて`static.sh`にしている。themeURL.pyはreveal-mdのバグによる壊れたパスを修復するやつ。
+ここらへんをまとめて`static.sh`にしている。themeURL.pyはreveal-mdの[バグによる壊れたパス](https://github.com/webpro/reveal-md/issues/403#issue-1100518130)を修復するやつ。
