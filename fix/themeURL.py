@@ -37,7 +37,7 @@ def fix_listcss_path(arg):
     print(str(listing[0]) +
           ": href=\"./dist/theme/black.css -> href=\"./_assets/theme/listing.css")
     content = content.replace("href=\"./dist/theme/black.css",
-                              "href=\"./_assets/theme/listing.css")
+                              "href=\"./_assets/theme/listing.css").replace("<title>reveal-md</title>", "<title>Suzuke's Slide</title>")
     listing[0].write_text(content)
 
 
