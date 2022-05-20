@@ -10,7 +10,7 @@ title: "Scanning World with LIDAR "
 
 E-37 2010383<br>Hikaru Suzuki
 
-Source: MathWorks<br>
+Source: MathWorks "What Is Lidar?"<br>
 https://www.mathworks.com/discovery/lidar.html
 
 ---
