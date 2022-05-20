@@ -44,6 +44,10 @@ LIght Detection And Ranging
 
 ## Features
 
+* Accuracy
+* Algorithms
+* Price Dropping
+
 --
 
 ## Accuracy
