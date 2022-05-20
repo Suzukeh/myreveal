@@ -19,9 +19,12 @@ Source: "What Is Lidar?" by MathWorks<br>
 
 3D Mapping system
 
-Real World → Information
+Real World → Information<br>
+(AR/MR)
 
-**LIDAR**
+<br>
+
+Useful tool: **LIDAR**
 
 --
 
