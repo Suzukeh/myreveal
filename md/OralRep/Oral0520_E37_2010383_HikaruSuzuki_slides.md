@@ -35,7 +35,7 @@ LIght Detection And Ranging
 
 →Get information of one point on 3D world
 
-<img src="https://www.mathworks.com/discovery/lidar/_jcr_content/mainParsys3/discoverysubsection__241067823/mainParsys3/image.adapt.full.medium.jpg/1646380451627.jpg" style="width: 70%; border: none; box-shadow:none;transform:rotate(0deg)"/>
+<img src="https://www.mathworks.com/discovery/lidar/_jcr_content/mainParsys3/discoverysubsection__241067823/mainParsys3/image.adapt.full.medium.jpg/1646380451627.jpg" style="width: 65%; border: none; box-shadow:none;transform:rotate(0deg)"/>
 
 ---
 
