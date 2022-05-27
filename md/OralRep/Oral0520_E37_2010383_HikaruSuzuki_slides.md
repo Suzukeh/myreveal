@@ -1,7 +1,7 @@
 ---
 theme: "theme/solarslide.css"
 transition: "slide"
-title: "Scanning World with LIDAR "
+title: "Scanning with LIDAR "
 ---
 
 ### Scanning with
