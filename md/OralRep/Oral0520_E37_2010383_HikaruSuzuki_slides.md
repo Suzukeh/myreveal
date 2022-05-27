@@ -17,7 +17,7 @@ Source: "What Is Lidar?" by MathWorks<br>
 
 ## Introduction
 
-3D Mapping system
+3D mapping system
 
 Real World → Information<br>
 (AR/MR)
