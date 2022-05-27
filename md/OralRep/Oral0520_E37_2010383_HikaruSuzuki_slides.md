@@ -52,7 +52,7 @@ LIght Detection And Ranging
 
 ## Accuracy
 
-Other method: Radar, Sonar
+Other methods: Radar, Sonar
 
 **∧**
 
