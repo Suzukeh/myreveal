@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Scanning World with LIDAR </title>
+    <link rel="shortcut icon" href="./../favicon.ico" />
+    <link rel="stylesheet" href="./../dist/reset.css" />
+    <link rel="stylesheet" href="./../dist/reveal.css" />
+    <link rel="stylesheet" href="./../_assets/theme/solarslide.css" id="theme" />
+    <link rel="stylesheet" href="./../css/highlight/zenburn.css" />
+
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+
+### Scanning with
+
+# LIDAR
+
+E-37 2010383<br>Hikaru Suzuki
+
+Source: MathWorks<br>
+https://www.mathworks.com/discovery/lidar.html
+
+</script></section><section ><section data-markdown><script type="text/template">
+
+## Introduction
+
+3D Mapping system
+
+Real World → Information
+
+**LIDAR**
+
+</script></section><section data-markdown><script type="text/template">
+
+## What is LIDAR?
+
+LIght Detection And Ranging
+
+1. Emit laser
+2. objects reflect
+3. Measure reflected light energy
+
+→Get information of one point on 3D world
+
+<img src="https://www.mathworks.com/discovery/lidar/_jcr_content/mainParsys3/discoverysubsection__241067823/mainParsys3/image.adapt.full.medium.jpg/1646380451627.jpg" style="width: 65%; border: none; box-shadow:none;transform:rotate(0deg)"/>
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+
+## Features
+
+</script></section><section data-markdown><script type="text/template">
+
+## Accuracy
+
+Other method: Radar, Sonar
+
+**∧**
+
+**LIDAR** <br>
+(e.g. 1cm and 1deg at over 100m range)
+
+</script></section><section data-markdown><script type="text/template">
+
+## Algorithms
+
+Many processing algorithms
+
+* Object detection and tracking
+* lane detection
+* Camera data fusion
+* lidar SLAM (localization, mapping)
+
+</script></section><section data-markdown><script type="text/template">
+
+## Price Dropping
+
+Expensive than other methods
+
+↓
+
+**Inexpensive** and **Small** system<br>in recent years
+
+</script></section><section data-markdown><script type="text/template">
+
+## Price Dropping
+
+related to reason
+
+* Big lidar machines are already working<br>(Self-driving car, Mapping car)
+
+* Some smartphones have small lidar sensors
+
+It will become more popular solution.
+
+</script></section></section><section  data-markdown><script type="text/template">
+
+## Applications
+
+* 3D map<br>
+publishing as a useful data
+* Autopilot robots<br>
+realtime detection and control
+
+<br>
+<img src="https://www.mathworks.com/discovery/lidar/_jcr_content/mainParsys3/discoverysubsection_/mainParsys3/columns_copy_copy/de854ad3-6973-4019-a055-551aa79dfa6f/image_copy.adapt.full.medium.jpg/1646380453085.jpg" style="width: 30%; border: none; box-shadow:none;transform:rotate(0deg)"/>
+
+<img src="https://www.mathworks.com/discovery/lidar/_jcr_content/mainParsys3/discoverysubsection_/mainParsys3/columns_copy_copy/6c41c98a-7e25-47ba-98fc-2d4dda293985/image_copy.adapt.full.medium.jpg/1646380453008.jpg" style="width: 20%; border: none; box-shadow:none;transform:rotate(0deg)"/>
+
+
+</script></section><section  data-markdown><script type="text/template">
+
+</script></section></div>
+    </div>
+
+    <script src="./../dist/reveal.js"></script>
+
+    <script src="./../plugin/markdown/markdown.js"></script>
+    <script src="./../plugin/highlight/highlight.js"></script>
+    <script src="./../plugin/zoom/zoom.js"></script>
+    <script src="./../plugin/notes/notes.js"></script>
+    <script src="./../plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"controls":true,"progress":true,"controlsTutorial":true,"slideNumber":true,"keyboard":true,"overview":true,"help":true,"pause":true,"mouseWheel":false,"pdfSeparateFragments":false,"helpButtonDisplay":"first","menu":{"side":"left","hideMissingTitles":true,"custom":[{"title":"About","icon":"<i class=\"fa fa-info\">","content":"<p><a href='https://suzukeh.github.io/myreveal/'>slides list</a></p><p><a href='https://github.com/Suzukeh/myreveal'>repository</a></p>"}]}}, queryOptions);
+    </script>
+
+    <script src="./../_assets/plugin/chalkboard/plugin.js"></script>
+    <script src="./../_assets/plugin/toolbar/toolbar.js"></script>
+    <script src="./../_assets/plugin/customcontrols/plugin.js"></script>
+    <script src="./../_assets/plugin/helpbutton/helpbutton.js"></script>
+    <script src="./../_assets/plugin/menu/menu.js"></script>
+    <script src="./../_assets/plugin.js"></script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
