@@ -1,7 +1,7 @@
 ---
 theme: "theme/solarslide.css"
 transition: "slide"
-title: "Scanning World with LIDAR "
+title: "Scanning with LIDAR "
 ---
 
 ### Scanning with
@@ -10,18 +10,21 @@ title: "Scanning World with LIDAR "
 
 E-37 2010383<br>Hikaru Suzuki
 
-Source: MathWorks<br>
-https://www.mathworks.com/discovery/lidar.html
+Source: "What Is Lidar?" by MathWorks<br>
+<small>https://www.mathworks.com/discovery/lidar.html</small>
 
 ---
 
 ## Introduction
 
-3D Mapping system
+3D mapping system
 
-Real World → Information
+Real World → Information<br>
+(AR/MR)
 
-**LIDAR**
+<br>
+
+Useful tool: **LIDAR**
 
 --
 
@@ -30,7 +33,7 @@ Real World → Information
 LIght Detection And Ranging
 
 1. Emit laser
-2. objects reflect
+2. Objects reflect
 3. Measure reflected light energy
 
 →Get information of one point on 3D world
@@ -41,11 +44,15 @@ LIght Detection And Ranging
 
 ## Features
 
+* Accuracy
+* Algorithms
+* Price Dropping
+
 --
 
 ## Accuracy
 
-Other method: Radar, Sonar
+Other methods: Radar, Sonar
 
 **∧**
 
@@ -77,11 +84,11 @@ Expensive than other methods
 
 ## Price Dropping
 
-related to reason
+Reason I chose this topic...
 
 * Big lidar machines are already working<br>(Self-driving car, Mapping car)
 
-* Some smartphones have small lidar sensors
+* Some smartphones have small LIDAR sensors
 
 It will become more popular solution.
 
