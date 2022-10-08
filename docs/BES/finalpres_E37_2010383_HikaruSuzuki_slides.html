@@ -18,6 +18,8 @@
       <div class="slides"><section  data-markdown><script type="text/template">
 
 # Slides for Talking
+with<br>
+![](https://revealjs.com/images/logo/reveal-black-text.svg)
 
 E37 2010383 Hikaru Suzuki
 
@@ -29,9 +31,10 @@ What apps do you use to make slides?
 
 <small>PowerPoint? Google Slides? Keynote? ...</small>
 
-↑WYSWYG software↑
+↑WYSWYG software↑<br><small>What You See is What You Get</small>
 
 ![](img/07-08-11-59-58.png)
+
 
 </script></section><section data-markdown><script type="text/template">
 
@@ -39,11 +42,15 @@ What apps do you use to make slides?
 
 ![](https://revealjs.com/images/logo/reveal-black-text.svg)
 
-Slides by HTML / Markdown (I recommend)
+Making slides by TEXT
+
+> reveal.js is an open source HTML presentation framework.
+
+HTML / Markdown ←I recommend
 
 </script></section><section data-markdown><script type="text/template">
 
-* I use it now!
+* I use it now by markdown!
 
 * WITH slides is better than WITHOUT slides
 
@@ -51,33 +58,43 @@ Slides by HTML / Markdown (I recommend)
 
 ## Text-to-Slide system
 
-Markdown slide
-
+Markdown slide<br>
 ![](img/markdownslide.png)
 
-like HTML / LaTeX but easier
+like HTML / LaTeX
+<br>and **EASY**
 
 → Writing as Script
 
-</script></section><section  data-markdown><script type="text/template">
+</script></section><section ><section data-markdown><script type="text/template">
 
 ## Nesting by Chapters
 
-![](img/07-08-11-57-11.png)
+<img src="img/07-08-11-57-11.png" style="width: 50%; border: solid; box-shadow:none;transform:rotate(0deg)"/>
 
-→ Writing as Chapters
+→ Writing as Chapter
 
-</script></section><section  data-markdown><script type="text/template">
+</script></section><section data-markdown><script type="text/template">
+
+### Only Reveal.js
+
+Other softwares<br>
+<small>PPT and other WYSWYG, Marp and other coded apps</small><br>
+**NO** nesting like this.
+
+</script></section></section><section  data-markdown><script type="text/template">
 
 ## Faster than PPT
 
+**Less mouse moving**
+
 **Prepared functions**
-* Many Styles: easy to see (Color/Font/Size)
+* Many Styles: easy to see Color/Font/Size
 * Centering and Stretching
 
 and so on...
 
-→ Writing less than what you get
+→ Writing LESS than what you get
 
 </script></section><section ><section data-markdown><script type="text/template">
 
@@ -87,15 +104,15 @@ and so on...
 
 Converting easy script into beautiful slides
 
-What You Write **WILL** What You Get
+What You Write **becomes** What You Get
 
 </script></section><section data-markdown><script type="text/template">
 
-Write simple texts as script
+Write keywords of your talking
 
-Change nesting as chapter
+Change chapter by nesting
 
-Prepare awesome presentation
+Prepare awesome slides in short time
 
 with
 
@@ -111,7 +128,11 @@ OSS! Free!
 
 ## References
 
-Reveal.js by hakimel, https://revealjs.com/</script></section></div>
+* hakimel, Reveal.js, https://revealjs.com/
+* NotePM, 【2022年版】Markdownでスライド作成できるツール・サービス × 14選<br>(14 tools to make slides with Markdown), https://notepm.jp/blog/5994
+
+I use reveal-md(fork) for this slide:
+* webpro, reveal-md, https://github.com/webpro/reveal-md</script></section></div>
     </div>
 
     <script src="./../dist/reveal.js"></script>
@@ -154,7 +175,7 @@ Reveal.js by hakimel, https://revealjs.com/</script></section></div>
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {"controls":true,"progress":true,"controlsTutorial":true,"slideNumber":true,"keyboard":true,"overview":true,"help":true,"pause":true,"mouseWheel":false,"pdfSeparateFragments":false,"helpButtonDisplay":"first","menu":{"side":"left","hideMissingTitles":true,"custom":[{"title":"About","icon":"<i class=\"fa fa-info\">","content":"<p><a href='https://suzukeh.github.io/myreveal/'>slides list</a></p><p><a href='https://github.com/Suzukeh/myreveal'>repository</a></p>"}]}}, queryOptions);
+      var options = extend(defaultOptions, {"transition":"convex","controls":true,"progress":true,"controlsTutorial":true,"slideNumber":true,"keyboard":true,"overview":true,"help":true,"pause":true,"mouseWheel":false,"pdfSeparateFragments":false,"helpButtonDisplay":"first","menu":{"side":"left","hideMissingTitles":true,"custom":[{"title":"About","icon":"<i class=\"fa fa-info\">","content":"<p><a href='https://suzukeh.github.io/myreveal/'>slides list</a></p><p><a href='https://github.com/Suzukeh/myreveal'>repository</a></p>"}]}}, queryOptions);
     </script>
 
     <script src="./../_assets/plugin/chalkboard/plugin.js"></script>
